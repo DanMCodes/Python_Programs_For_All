@@ -1,4 +1,5 @@
  # This is a Guess the Number game.
+ # Inspired from https://inventwithpython.com/guess.py
 import random
 
 guessesTaken = 0
