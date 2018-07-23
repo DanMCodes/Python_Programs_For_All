@@ -1,11 +1,11 @@
 NB_CM_IN_INCH = 2.54
 
 def convert_cm_in_inch(val):
-    """You can put docstrings here :)."""
+    """Convert centermeters into inches"""
     return val / NB_CM_IN_INCH
 
 def convert_inch_in_cm(val):
-    """And here :D."""
+    """Convert inches into centemeters"""
     return val * NB_CM_IN_INCH
 
 if __name__ == "__main__":
