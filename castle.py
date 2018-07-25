@@ -1,18 +1,4 @@
-#!/usr/bin/python
-#--------------------------------------
-#
-#     Minecraft Python API
-#        Castle Builder
-#
-# This script creates a castle complete
-# with moat and perimeter walls.
-#
-# Author : Matt Hawkins
-# Date   : 07/06/2014
-#
-# https://www.raspberrypi-spy.co.uk/
-#
-#--------------------------------------
+#This can be a difficult program but it should make your very own Mincraft Castle!!
  
 # Import Minecraft libraries
 import mcpi.minecraft as minecraft
@@ -131,3 +117,6 @@ CreateKeep(5,1,4)
  
 print("Position player on Keep's walkway")
 mc.player.setPos(0,30,4)
+
+
+print('Special thanks to https://www.raspberrypi-spy.co.uk/2014/06/building-a-castle-in-minecraft-with-python/ ')
